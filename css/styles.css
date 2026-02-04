@@ -9,9 +9,10 @@ font-size: 16px;
 font-style: normal;
 }
 .container {
-    width: 1158px;
+    max-width: 1158px;
     margin: 0 auto;
     display: block;
+    padding: 15px 0;
 
 }
 img{
@@ -24,6 +25,7 @@ h1 {
     line-height: 1.07;
     letter-spacing: 0.02em;
     padding-bottom: 48px;
+    width: 496px;
     
 
 }
@@ -97,9 +99,9 @@ ul, ol {
 }
 .location-header{
     display:flex;
-    padding: 24px 0;
-    
+
 }
+
 .logo-end{
     font-size: 18px;
         color: #F4F4FD;
@@ -111,9 +113,15 @@ ul, ol {
         text-transform: uppercase;
         
 }
+.navigation-header{
+    display:flex;
+    align-items:center;
+    gap:76px;
+}
 
 .navigation{
 display:flex;
+gap:40PX;
 }
 .nav-items,
 .address-items{
@@ -122,7 +130,8 @@ font-weight:500;
 line-height: 1.5;
 font-size: 1rem;
 letter-spacing: 0.02em;
-padding: 0 40px;
+padding: 24px 0;
+display:block;
 
 }
 .nav-items:hover,
@@ -133,7 +142,9 @@ padding: 0 40px;
 color: #404BBF;
 }
 .contact{
-padding-left: 50px;
+display:flex;
+margin:auto;
+gap:40px;
 }
 address .nav-items{
 color:#434455;
@@ -146,9 +157,7 @@ address .nav-items:focus
 color:#404BBF;
 }
 
-.address-items:first-child {
-padding-left: 74px;
-}
+
  .cap{ 
     display: flex;
     flex-direction: column;
@@ -183,18 +192,16 @@ button:focus {
     background-color: #F4F4FD;
     height: 732px;;
 }
-
 .container-portfolio {
     display: flex;
     flex-wrap: wrap;
-    width: 1440px;
-    height: 1240px;
-    row-gap:24px;
-    column-gap:48px;
+    row-gap:48px;
+    column-gap:24px;
+    padding-bottom:120px;
 }
 
 .container-portfolio-items {
-    width: calc((100%-48px)/3);   
+width: calc((100%-48px)/3);
 }
 .privilege-container
 {
@@ -206,6 +213,7 @@ padding: 120px 0;
 padding: 0 24px;
 width: 264px;
 height: 104px;
+font-size: 16px;
 }
 .privilege-container-items h3{
     padding-bottom:8px;
@@ -230,8 +238,7 @@ text-align:center;
     padding-bottom:32px;
 }
 .footer-container{
-    width: 264px;
-    margin-left: 156px;
+   
     padding-top: 100px;
     
 }
@@ -245,7 +252,7 @@ line-height: 1.5;
 font-weight: 400;
 letter-spacing: 0.02em;
 padding-top: 16px;
-
+width: 264px;
 }
 
 
